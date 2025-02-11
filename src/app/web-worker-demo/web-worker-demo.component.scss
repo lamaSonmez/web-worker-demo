@@ -1,0 +1,54 @@
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .counter {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4caf50;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  button.heavy{
+    background-color: #dc3545;
+    margin-left: 10px;
+  }
+  button.heavy:hover{
+    background-color: #ea283b;
+
+  }
+ 
+  
+  .loading {
+    font-size: 18px;
+    color: #ff9800;
+  }
+  
+  .result {
+    font-size: 18px;
+    color: #4caf50;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .status {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #555;
+  }
+  

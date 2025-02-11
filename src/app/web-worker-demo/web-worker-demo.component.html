@@ -1,0 +1,29 @@
+<div class="container">
+    <h2>Web Worker Performance Demo</h2>
+  
+    <p>
+      💡 Heavy computations are offloaded to a Web Worker, so the UI remains
+      responsive! Try clicking the button and notice how the counter keeps running
+      smoothly.
+    </p>
+    <p class="status">
+      ✅ The UI is still responsive! see how the counter counts witout any issues.
+    </p>
+  
+    <div class="counter">
+      <p>🔄 Counter: {{ counter }}</p>
+    </div>
+  
+    <button (click)="startHeavyComputation()">🚀 Start Heavy Computation</button>
+    <hr/>
+    <p class="status">
+      ❌ The UI **froze** during computation! Try clicking, you will notice the counter will freeze.
+    </p>
+    
+    <button (click)="startHeavyComputationWithoutWorker()" class="heavy" >⚡ Start Heavy Computation</button>
+   
+    <p *ngIf="loading" class="loading">Processing in Web Worker... ⏳</p>
+    <p *ngIf="result !== null" class="result">✅ Computation Result: {{ result }}</p>
+   
+  </div>
+  
