@@ -1,27 +1,16 @@
-# WorkerOffcancanvasDemo
+# 🚀 Angular Web Worker Performance Demo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
+This project demonstrates how **Web Workers** can improve performance in Angular applications by offloading heavy computations to a separate thread.  
+By utilizing Web Workers, we prevent the main thread from getting blocked, ensuring a **smooth and responsive UI**.
 
-## Development server
+📖 Read the full explanation on Medium:  
+🔗 [Full Medium Article Title](#)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+🎯 Try the Live Demo:  
+🚀 [Angular Web Worker Demo](#)
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## ⚡ Features
+✔️ **Offload Heavy Computations**: Run expensive operations in the background without affecting UI responsiveness.  
+✔️ **Web Worker Integration**: Uses Angular’s built-in support for Web Workers.  
+✔️ **Improved Performance**: Prevents UI lag caused by blocking tasks.  
+✔️ **Real-World Example**: Demonstrates processing large datasets without freezing the page.  
